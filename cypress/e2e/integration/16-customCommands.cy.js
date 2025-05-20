@@ -54,6 +54,6 @@ describe("Cypress Custom Commands", () => {
       cy.log(Cypress.env("UI_USERNAME"));
       cy.log(Cypress.env("UI_PASSWORD"));
   
-      cy.log(Cypress.env("SITE_URL", 'https://www.google.com/'));
+      cy.log(Cypress.env("SITE_URL", 'https://www.google.com/'));// assign different value for this test
     });
   });
